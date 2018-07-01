@@ -1,0 +1,68 @@
+﻿@model ProjectSalesCore.ViewModel.PurchaseOrder.POrderDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>POrder</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ProviderName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentCondition)
+        </dd>
+
+        <dd>
+            @Html.DisplayFor(model => model.PlaceOfEntry)
+        </dd>
+
+        <dd>
+            @Html.DisplayFor(model => model.StatusOrder)
+        </dd>
+        <dd>
+            Is internal purchase:
+        </dd>
+        <dd>
+            @Html.DisplayFor(model => model.IsInternalPurchase)
+        </dd>
+        <dd>
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>
+
+    </dl>
+</div>
+<div>
+    <table>
+        @foreach (var item in Model.DetailsOrderDetailViewModels)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.Quantity</td>
+                <td>@item.UnitPrice</td>
+                <td>@item.Discount</td>
+                <td>@item.TotalAmount</td>
+            </tr>
+        }
+    </table>
+</div>
+<div>
+    Total:
+</div>
+<div>
+    @Html.DisplayFor(model =>model.TotalAmount);
+</div>
+<p>
+    @if (!Model.StatusOrder.Equals("RECIBIDO"))
+    {
+        @Html.ActionLink("Edit", "Edit", new { id = Model.PurchaseNumber })
+        <as> | </as>
+    }
+
+    @Html.ActionLink("Back to List", "Index")
+</p>

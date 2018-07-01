@@ -1,0 +1,72 @@
+﻿@model CSales.Database.Models.PDoc
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>PDoc</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CurrentAccountDocumentType.TypeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurrentAccountDocumentType.TypeName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Provider.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Provider.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PurchaseDocument.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PurchaseDocument.Id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalAmount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ItsPaid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ItsPaid)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

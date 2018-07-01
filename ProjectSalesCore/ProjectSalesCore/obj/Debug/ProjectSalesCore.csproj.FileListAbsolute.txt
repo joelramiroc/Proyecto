@@ -1,0 +1,423 @@
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\ApplicationInsights.config
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.dll.config
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.pdb
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Antlr3.Runtime.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.Firebird.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.SqlServer.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.Web.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Newtonsoft.Json.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Ninject.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Common.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Mvc.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Owin.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.DataBase.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Helpers.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Mvc.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Optimization.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Razor.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Razor.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\WebActivatorEx.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\WebGrease.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.DataBase.pdb
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.DataBase.dll.config
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.Firebird.pdb
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\FirebirdSql.Data.FirebirdClient.pdb
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Ninject.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Common.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Mvc.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Helpers.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Mvc.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Optimization.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Razor.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Razor.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Antlr3.Runtime.pdb
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Newtonsoft.Json.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.SqlServer.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.Web.xml
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\obj\Debug\ProjectSalesCore.csprojResolveAssemblyReference.cache
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\obj\Debug\ProjectSalesCore.csproj.CoreCompileInputs.cache
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\obj\Debug\ProjectSalesCore.dll
+C:\Users\Joeru\source\repos\ProjectSalesCore\ProjectSalesCore\obj\Debug\ProjectSalesCore.pdb
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ApplicationInsights.config
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.dll.config
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.pdb
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Antlr3.Runtime.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.Firebird.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.SqlServer.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.Web.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Newtonsoft.Json.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Ninject.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Common.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Mvc.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Owin.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.DataBase.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Helpers.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Mvc.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Optimization.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Razor.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Razor.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\WebActivatorEx.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\WebGrease.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.DataBase.pdb
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.DataBase.dll.config
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.Firebird.pdb
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\FirebirdSql.Data.FirebirdClient.pdb
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Ninject.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Common.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Mvc.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Helpers.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Mvc.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Optimization.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Razor.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Razor.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Antlr3.Runtime.pdb
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Newtonsoft.Json.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.SqlServer.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.Web.xml
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\obj\Debug\ProjectSalesCore.csprojResolveAssemblyReference.cache
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\obj\Debug\ProjectSalesCore.csproj.CoreCompileInputs.cache
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\obj\Debug\ProjectSalesCore.dll
+C:\Users\Joeru\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\obj\Debug\ProjectSalesCore.pdb
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\ApplicationInsights.config
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.dll.config
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.pdb
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Antlr3.Runtime.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.Firebird.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.SqlServer.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.Web.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.ApplicationInsights.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Newtonsoft.Json.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Ninject.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Common.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Mvc.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Owin.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.DataBase.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Helpers.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Mvc.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Optimization.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Razor.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Razor.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\WebActivatorEx.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\WebGrease.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.DataBase.pdb
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.Firebird.pdb
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\FirebirdSql.Data.FirebirdClient.pdb
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Ninject.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Common.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Mvc.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Helpers.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Mvc.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Optimization.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Razor.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Razor.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Antlr3.Runtime.pdb
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Newtonsoft.Json.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.SqlServer.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.ApplicationInsights.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.Web.xml
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\obj\Debug\ProjectSalesCore.csprojResolveAssemblyReference.cache
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\obj\Debug\ProjectSalesCore.dll
+C:\Users\pablo\Documents\Clases\TBD1\Core-Sales\ProjectSalesCore\ProjectSalesCore\obj\Debug\ProjectSalesCore.pdb
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ApplicationInsights.config
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.dll.config
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.pdb
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Antlr3.Runtime.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.Firebird.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.SqlServer.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.Web.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.ApplicationInsights.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Newtonsoft.Json.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Ninject.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Common.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Mvc.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Owin.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.DataBase.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Helpers.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Mvc.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Optimization.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Razor.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Razor.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\WebActivatorEx.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\WebGrease.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.DataBase.pdb
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.DataBase.dll.config
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.Firebird.pdb
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\FirebirdSql.Data.FirebirdClient.pdb
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Ninject.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Common.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Mvc.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Helpers.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Mvc.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Optimization.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Razor.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Razor.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Antlr3.Runtime.pdb
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Newtonsoft.Json.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.SqlServer.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.ApplicationInsights.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.Web.xml
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\obj\Debug\ProjectSalesCore.csprojResolveAssemblyReference.cache
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\obj\Debug\ProjectSalesCore.csproj.CoreCompileInputs.cache
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\obj\Debug\ProjectSalesCore.dll
+C:\Users\JoelCaballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\obj\Debug\ProjectSalesCore.pdb
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ApplicationInsights.config
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.dll.config
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.pdb
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Antlr3.Runtime.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.Firebird.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.SqlServer.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.Web.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Newtonsoft.Json.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Ninject.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Common.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Mvc.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Owin.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.DataBase.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Helpers.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Mvc.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Optimization.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Razor.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Razor.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\WebActivatorEx.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\WebGrease.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.DataBase.pdb
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\ProjectSalesCore.DataBase.dll.config
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.Firebird.pdb
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\FirebirdSql.Data.FirebirdClient.pdb
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Ninject.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Common.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Ninject.Web.Mvc.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Helpers.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Mvc.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Optimization.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.Razor.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\System.Web.WebPages.Razor.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Antlr3.Runtime.pdb
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Newtonsoft.Json.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\EntityFramework.SqlServer.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\bin\Microsoft.AI.Web.xml
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\obj\Debug\ProjectSalesCore.csprojResolveAssemblyReference.cache
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\obj\Debug\ProjectSalesCore.csproj.CoreCompileInputs.cache
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\obj\Debug\ProjectSalesCore.dll
+C:\Users\Joel Caballero\Desktop\Cores-Sale\ProjectSalesCore\ProjectSalesCore\obj\Debug\ProjectSalesCore.pdb

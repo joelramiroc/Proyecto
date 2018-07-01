@@ -1,0 +1,40 @@
+﻿@model ProjectSalesCore.ViewModel.PurchaseOrder.AddProcuctsToAlmacenViewModel
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+@using (Html.BeginForm("AddProductToAlmacen", "POrders", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    <h4>POrder</h4>
+
+    <div>
+        <dl>
+            <dt>
+                Order Number:
+            </dt>
+            <dt>
+                @Html.HiddenFor(model => model.PurchaseNumber)
+                @Html.DisplayFor(model => model.PurchaseNumber)
+            </dt>
+            <dt>
+
+            </dt>
+            <dt>
+                @Html.DropDownList("IdStorage", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => Model.IdStorage, "", new { @class = "text-danger" })
+            </dt>
+        </dl>
+    </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" onclick="location.href='@Url.Action("AdProductToAlmacen", "POrders")'" />
+            </div>
+        </div>
+}
+
+

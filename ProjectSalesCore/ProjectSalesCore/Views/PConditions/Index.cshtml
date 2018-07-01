@@ -1,0 +1,33 @@
+﻿@model IEnumerable<CSales.Database.Models.PCondition>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ConditionName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ConditionName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdPaymentCondition }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdPaymentCondition }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IdPaymentCondition })
+        </td>
+    </tr>
+}
+
+</table>

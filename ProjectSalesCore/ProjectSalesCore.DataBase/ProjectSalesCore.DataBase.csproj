@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{02AE346A-F2DD-4A6B-A433-D90B7DF295E7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectSalesCore.DataBase</RootNamespace>
+    <AssemblyName>ProjectSalesCore.DataBase</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.Firebird, Version=5.12.1.0, Culture=neutral, PublicKeyToken=42d22d092898e5f8, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.Firebird.5.12.1\lib\net452\EntityFramework.Firebird.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FirebirdSql.Data.FirebirdClient, Version=5.12.1.0, Culture=neutral, PublicKeyToken=3750abcc3150b00c, processorArchitecture=MSIL">
+      <HintPath>..\packages\FirebirdSql.Data.FirebirdClient.5.12.1\lib\net452\FirebirdSql.Data.FirebirdClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivatorEx.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contexts\MyContext.cs" />
+    <Compile Include="Models\AddressClient.cs" />
+    <Compile Include="Models\AddressEmployee.cs" />
+    <Compile Include="Models\AddressProvider.cs" />
+    <Compile Include="Models\AddressStorage.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
+    <Compile Include="Models\Bank.cs" />
+    <Compile Include="Models\Bill.cs" />
+    <Compile Include="Models\Billofexchange.cs" />
+    <Compile Include="Models\BusinessName.cs" />
+    <Compile Include="Models\Check.cs" />
+    <Compile Include="Models\CityClient.cs" />
+    <Compile Include="Models\CityProvider.cs" />
+    <Compile Include="Models\Client.cs" />
+    <Compile Include="Models\Collection.cs" />
+    <Compile Include="Models\CostCenter.cs" />
+    <Compile Include="Models\CounterSale.cs" />
+    <Compile Include="Models\CreditNote.cs" />
+    <Compile Include="Models\CreditNoteType.cs" />
+    <Compile Include="Models\CurrentAccountDocumentType.cs" />
+    <Compile Include="Models\CurrentAccountProvider.cs" />
+    <Compile Include="Models\CustomerCheckingAccount.cs" />
+    <Compile Include="Models\DebitNote.cs" />
+    <Compile Include="Models\DetailEntryNote.cs" />
+    <Compile Include="Models\DetailsProductsToSale.cs" />
+    <Compile Include="Models\EmailClient.cs" />
+    <Compile Include="Models\EmailEmployee.cs" />
+    <Compile Include="Models\EmailProvider.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\EntryNote.cs" />
+    <Compile Include="Models\ExternalInventory.cs" />
+    <Compile Include="Models\ExternalProduct.cs" />
+    <Compile Include="Models\Fax.cs" />
+    <Compile Include="Models\InternalInventory.cs" />
+    <Compile Include="Models\InternalProduct.cs" />
+    <Compile Include="Models\Kardex.cs" />
+    <Compile Include="Models\MovementsProvider.cs" />
+    <Compile Include="Models\MovementType.cs" />
+    <Compile Include="Models\OrderDetailsCompras.cs" />
+    <Compile Include="Models\OrderDetailsVentas.cs" />
+    <Compile Include="Models\OutputNote.cs" />
+    <Compile Include="Models\PaymentCondition.cs" />
+    <Compile Include="Models\PaymentMethod.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\ProductLine.cs" />
+    <Compile Include="Models\ProductType.cs" />
+    <Compile Include="Models\Provider.cs" />
+    <Compile Include="Models\PurchaseDocument.cs" />
+    <Compile Include="Models\PurchaseOrder.cs" />
+    <Compile Include="Models\ReasonNote.cs" />
+    <Compile Include="Models\RUC.cs" />
+    <Compile Include="Models\Sale.cs" />
+    <Compile Include="Models\SaleOrder.cs" />
+    <Compile Include="Models\SalesByDispatch.cs" />
+    <Compile Include="Models\StatusNote.cs" />
+    <Compile Include="Models\StatusOrder.cs" />
+    <Compile Include="Models\Storage.cs" />
+    <Compile Include="Models\TelephoneClient.cs" />
+    <Compile Include="Models\TelephoneEmployee.cs" />
+    <Compile Include="Models\TelephoneProvider.cs" />
+    <Compile Include="Models\TestDate.cs" />
+    <Compile Include="Models\TypeOfPurchaseDocument.cs" />
+    <Compile Include="Models\TypeOfSaleDocument.cs" />
+    <Compile Include="Models\UnitOfMeasurement.cs" />
+    <Compile Include="Models\Voucher.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\BankRepository.cs" />
+    <Compile Include="Repositories\BillOfExchangeRepository.cs" />
+    <Compile Include="Repositories\BillRepository.cs" />
+    <Compile Include="Repositories\BusinessNameRepository.cs" />
+    <Compile Include="Repositories\ChekRepository.cs" />
+    <Compile Include="Repositories\ClientRepository.cs" />
+    <Compile Include="Repositories\CollectionRepository.cs" />
+    <Compile Include="Repositories\CostCenterRepository.cs" />
+    <Compile Include="Repositories\CounterSaleRepository.cs" />
+    <Compile Include="Repositories\CreditNoteRepository.cs" />
+    <Compile Include="Repositories\CreditNoteTypeRepository.cs" />
+    <Compile Include="Repositories\CSalesRepositoryBase.cs" />
+    <Compile Include="Repositories\CurrentAccountDocumentTypeRepository.cs" />
+    <Compile Include="Repositories\CurrentAccountProviderRepository.cs" />
+    <Compile Include="Repositories\CustomerCheckingAccountRepository.cs" />
+    <Compile Include="Repositories\DebitNoteRepository.cs" />
+    <Compile Include="Repositories\DetailEntryNoteRepository.cs" />
+    <Compile Include="Repositories\DetailsProductsToSaleRepository.cs" />
+    <Compile Include="Repositories\EmployeeRepository.cs" />
+    <Compile Include="Repositories\EntryNoteRepository.cs" />
+    <Compile Include="Repositories\ExternalInventoryRepository.cs" />
+    <Compile Include="Repositories\ExternalProductRepository.cs" />
+    <Compile Include="Repositories\FaxRepository.cs" />
+    <Compile Include="Repositories\InternalInventoryRepository.cs" />
+    <Compile Include="Repositories\InternalProductRepository.cs" />
+    <Compile Include="Repositories\IRepository.cs" />
+    <Compile Include="Repositories\KardexRepository.cs" />
+    <Compile Include="Repositories\MovementsProviderepository.cs" />
+    <Compile Include="Repositories\MovementsTypeRepository.cs" />
+    <Compile Include="Repositories\OutputNoteRepository.cs" />
+    <Compile Include="Repositories\PaymentConditionRepository.cs" />
+    <Compile Include="Repositories\PaymentMethodRepository.cs" />
+    <Compile Include="Repositories\ProductLineRepository.cs" />
+    <Compile Include="Repositories\ProductRepository.cs" />
+    <Compile Include="Repositories\ProductTypeRepository.cs" />
+    <Compile Include="Repositories\ProviderRepository.cs" />
+    <Compile Include="Repositories\PurchaseDocumentRepository.cs" />
+    <Compile Include="Repositories\PurchaseOrderRepository.cs" />
+    <Compile Include="Repositories\ReasonNoteRepository.cs" />
+    <Compile Include="Repositories\RepositoryBase.cs" />
+    <Compile Include="Repositories\RUCRepository.cs" />
+    <Compile Include="Repositories\SaleOrderRepository.cs" />
+    <Compile Include="Repositories\SaleRepository.cs" />
+    <Compile Include="Repositories\SalesByDispatchRepository.cs" />
+    <Compile Include="Repositories\StatusNoteRepository.cs" />
+    <Compile Include="Repositories\StorageRepository.cs" />
+    <Compile Include="Repositories\TypeOfPuchaseDocumentRepository.cs" />
+    <Compile Include="Repositories\TypeOfSaleDocumentRepository.cs" />
+    <Compile Include="Repositories\UnitOfMeasurementRepository.cs" />
+    <Compile Include="Repositories\VoucherRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\StyleCop.Analyzers.1.0.2\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
+    <Analyzer Include="..\packages\StyleCop.Analyzers.1.0.2\analyzers\dotnet\cs\StyleCop.Analyzers.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

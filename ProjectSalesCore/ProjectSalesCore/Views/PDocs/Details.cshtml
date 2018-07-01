@@ -1,0 +1,66 @@
+﻿@model CSales.Database.Models.PDoc
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PDoc</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CurrentAccountDocumentType.TypeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurrentAccountDocumentType.TypeName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Provider.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Provider.Name)
+        </dd>      
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalAmount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsWithOrder)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsWithOrder)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ItsPaid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ItsPaid)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

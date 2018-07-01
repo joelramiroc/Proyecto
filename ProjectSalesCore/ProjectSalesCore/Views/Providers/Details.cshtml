@@ -1,0 +1,120 @@
+﻿@model ProjectSalesCore.ViewModel.Provider.DetailsProviderViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Provider</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BusinessName.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BusinessName.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Contact)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Contact)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsForeignProvider)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsForeignProvider)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>        
+    </dl>
+</div>
+
+<div>
+    <table>
+
+        @foreach (var item in Model.Addresses)
+            {
+            <tr>
+                <td>Address:</td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AddressName)
+                </td>
+                <td>Description:</td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+<div>
+    <table>
+        @foreach (var item in Model.Telephones)
+            {
+            <tr>
+                <td>Number:</td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Number)
+                </td>
+                <td>Description:</td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+
+<div>
+    <table>
+        @foreach (var item in Model.CitiesDistricts)
+            {
+            <tr>
+                <td>Number:</td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>Description:</td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

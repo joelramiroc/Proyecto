@@ -1,0 +1,42 @@
+﻿@model CSales.Database.Models.CurrentAccountProvider
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CurrentAccountProvider</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Provider.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Provider.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalDebt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalDebt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdCurrentAccountProvider }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

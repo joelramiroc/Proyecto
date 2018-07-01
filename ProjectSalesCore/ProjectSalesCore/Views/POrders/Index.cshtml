@@ -1,0 +1,53 @@
+﻿@model IEnumerable<CSales.Database.Models.POrder>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Provider.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PlaceOfEntry)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsInternalPurchase)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Provider.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PlaceOfEntry)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreatedDate)
+        </td>
+        <td>
+            @if (!item.StatusOrder.StatusName.Equals("RECIBIDO"))
+            {
+                @Html.ActionLink("Edit", "Edit", new { id = item.PurchaseNumber })
+                <as> | </as>
+            }
+
+            @Html.ActionLink("Details", "Details", new { id=item.PurchaseNumber }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.PurchaseNumber })
+        </td>
+    </tr>
+}
+
+</table>

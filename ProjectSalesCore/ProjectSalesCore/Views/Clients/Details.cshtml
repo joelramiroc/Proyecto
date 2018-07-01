@@ -1,0 +1,111 @@
+﻿@model ProjectSalesCore.ViewModel.Client.DetailClientViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Client</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Employee.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Employee.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RUC.RUCName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RUC.RUCName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+    </dl>
+</div>
+
+<div>
+    <table>
+
+        @foreach (var item in Model.Addresses)
+            {
+            <tr>
+                <td>Address:</td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AddressName)
+                </td>
+                <td>Description:</td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+<div>
+    <table>
+        @foreach (var item in Model.Telephones)
+            {
+            <tr>
+                <td>Number:</td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Number)
+                </td>
+                <td>Description:</td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+
+<div>
+    <table>
+        @foreach (var item in Model.Emails)
+            {
+            <tr>
+                <td>Number:</td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Emaill)
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+
+<div>
+    <table>
+        @foreach (var item in Model.CitiesDistricts)
+            {
+            <tr>
+                <td>Number:</td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>Description:</td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

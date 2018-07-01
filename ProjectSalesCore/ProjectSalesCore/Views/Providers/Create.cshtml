@@ -1,0 +1,165 @@
+﻿@model ProjectSalesCore.ViewModel.Provider.CreateProviderViewModel
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+<script type="text/javascript">
+    add = function (p) {
+        var input = $('<input name= "Telephones">');
+        var tr = $('<tr><td>Number:</td><td><div class="col-md-10"></div></td></tr>');
+        $('.col-md-10', tr).append(input);
+        $('#tel').append(tr);
+        return false;
+    }
+
+    adda = function (p) {
+        var input = $('<input name= "Addresses">');
+        var tr = $('<tr><td>Address:</td><td><div class="col-md-10"></div></td></tr>');
+        $('.col-md-10', tr).append(input);
+        $('#adre').append(tr);
+        return false;
+    }
+
+</script>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Provider</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.IsActive, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <div class="checkbox">
+                    @Html.EditorFor(model => model.IsActive)
+                    @Html.ValidationMessageFor(model => model.IsActive, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Contact, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Contact, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Contact, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.IsForeignProvider, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <div class="checkbox">
+                    @Html.EditorFor(model => model.IsForeignProvider)
+                    @Html.ValidationMessageFor(model => model.IsForeignProvider, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.IdBusinessName, "IdBusinessName", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("IdBusinessName", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.IdBusinessName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div>
+            <a onclick="add()" href="#">Add</a>
+            <table id="tel">
+                    @if (Model.Telephones == null)
+                    {
+                        <tr>
+                        <td>
+                            Number:
+                        </td>
+                        <td>
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(model => model.Telephones, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Telephones, "", new { @class = "text-danger" })
+                            </div>
+                        </td>
+
+                        </tr>
+                    }
+                    else
+                    {
+                        for (int i = 0; i < Model.Telephones.Count(); i++)
+                        {
+                        <tr>
+                            <td>Number:</td>
+                            <td>
+                                <div class="col-md-10">
+                                    @Html.TextBoxFor(model => model.Telephones.ElementAt(i), new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.Telephones.ElementAt(i), "", new { @class = "text-danger" })
+                                </div>
+                            </td>
+                        </tr>
+                        }
+                    }
+                </table>
+            </div>
+
+        <div>
+            <a onclick="adda()" href="#">Add</a>
+            <table id="adre">
+                @if (Model.Addresses == null)
+                {
+                    <tr>
+                        <td>
+                            Address:
+                        </td>
+                        <td>
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(model => model.Addresses, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Addresses, "", new { @class = "text-danger" })
+                            </div>
+                        </td>
+                    </tr>
+                }
+                else
+                {
+                    for (int i = 0; i < Model.Addresses.Count(); i++)
+                    {
+                        <tr>
+                            <td>Address:</td>
+                            <td>
+                                <div class="col-md-10">
+                                    @Html.TextBoxFor(model => model.Addresses.ElementAt(i), new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.Addresses.ElementAt(i), "", new { @class = "text-danger" })
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
