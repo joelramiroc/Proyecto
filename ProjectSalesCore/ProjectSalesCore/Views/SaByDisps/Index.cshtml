@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CSales.Database.Models.SaByDisp>
+﻿@model IEnumerable<ProjectSalesCore.ViewModel.SaleByDispatch.SaleBDIndexViewModel>
 
 @{
     ViewBag.Title = "Index";
@@ -10,16 +10,46 @@
 </p>
 <table class="table">
     <tr>
-        <th></th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClientName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmployeeName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalAmont)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IdSaleOrder)
+        </th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+           <td>
+                @Html.DisplayFor(i => item.ClientName)  
+            </td>
+            <td>
+                @Html.DisplayFor(i => item.EmployeeName)
+            </td>
+            <td>
+                @Html.DisplayFor(i => item.CreatedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(i => item.TotalAmont)
+            </td>
+            <td>
+                @Html.DisplayFor(i => item.IdSaleOrder)
+            </td>
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
 
 </table>

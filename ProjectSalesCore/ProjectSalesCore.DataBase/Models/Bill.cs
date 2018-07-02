@@ -56,11 +56,11 @@ namespace CSales.Database.Models
         [Column("CS")]
         public virtual CounterSale CounterSale { get; set; }
 
-        [ForeignKey(nameof(PDoc))]
-        [Column("IPD")]
-        public int? idPdoc { get; set; }
+        [ForeignKey(nameof(CurrentAccountDocumentType))]
+        [Column("IDCADT")]
+        public int? IdCurrentActualDocumentType { get; set; }
 
-        [Column("PD")]
-        public virtual PDoc PDoc { get; set; }
+        [Column("CADT")]
+        public virtual CurrentAccountDocumentType CurrentAccountDocumentType { get; set; }
     }
 }

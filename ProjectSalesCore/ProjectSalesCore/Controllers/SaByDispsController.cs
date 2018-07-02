@@ -12,6 +12,9 @@ namespace ProjectSalesCore.Controllers
     using CSales.Database.Models;
     using ProjectSalesCore.ViewModel.SaleByDispatch;
     using System;
+    using ProjectSalesCore.ViewModel;
+    using System.Collections.Generic;
+    using ProjectSalesCore.ViewModel.SaleOrder;
 
     public class SaByDispsController : Controller
     {
@@ -20,7 +23,26 @@ namespace ProjectSalesCore.Controllers
         // GET: SaByDisps
         public ActionResult Index()
         {
-            return View(db.SalesByDispatch.ToList());
+            var sales = this.db.SalesByDispatch.ToList();
+            var list = new List<SaleBDIndexViewModel>();
+
+            foreach (var item in sales)
+            {
+                var total = this.db.OrderDetailsVentas.Where(o => o.IdSaleOrder == item.IdSaleOrder).Sum(o => o.Total);
+
+                var cvm = new SaleBDIndexViewModel
+                {
+                    TotalAmont = total,
+                    ClientName = item.SaleOrder.Client.Name,
+                    CreatedDate = item.CreatedDate,
+                    EmployeeName = item.Employee.Name,
+                    IdSaleOrder = item.IdSaleOrder,
+                    Id = item.Id
+                };
+                list.Add(cvm);
+            }
+
+            return View(list);
         }
 
         // GET: SaByDisps/Details/5
@@ -36,11 +58,29 @@ namespace ProjectSalesCore.Controllers
             {
                 return HttpNotFound();
             }
+            SaleOrder saleOrder = db.SaleOrder.Find(saByDisp.IdSaleOrder);
+            if (saleOrder == null)
+            {
+                return HttpNotFound();
+            }
 
-            return View(saByDisp);
+            var odv = this.db.OrderDetailsVentas.Where(v => v.IdSaleOrder == saleOrder.IdSaleOrder).ToList();
+
+            var total = odv.Sum(o => o.Total);
+
+            var show = new DetailSaleBDispatchViewModel
+            {
+                CreatedDate = saleOrder.CreatedDate,
+                DetailVentas = odv,
+                EmployeeName = saByDisp.Employee?.Name,
+                Id = saleOrder.IdSaleOrder,
+                ClientName = saleOrder.Client?.Name,
+                TotalAmount = total
+            };
+
+            return View(show);
         }
 
-        
         public ActionResult Delete(int? id)
         {
             if (id == null)

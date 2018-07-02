@@ -28,13 +28,6 @@ namespace CSales.Database.Models
         [Column("SALEORDER")]
         public virtual SaleOrder SaleOrder { get; set; }
 
-        [ForeignKey(nameof(OutputNoteStatus))]
-        [Column("IDONSTATUS")]
-        public int IdOutputNoteStatus { get; set; }
-
-        [Column("OUTPUTNOTESTATUS")]
-        public virtual StatusNote OutputNoteStatus { get; set; }
-
         [ForeignKey(nameof(ReasonNote))]
         [Column("IDRNOTE")]
         public int IdReasonNote { get; set; }
@@ -48,5 +41,8 @@ namespace CSales.Database.Models
 
         [Column("BILL")]
         public virtual Bill Bill { get; set; }
+
+        [Column("CREATEDDATE")]
+        public DateTime CreatedDate { get; set; }
     }
 }

@@ -1,16 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
-using System.Linq;
-using System.Net;
-using System.Web;
-using System.Web.Mvc;
-using CSales.Database.Contexts;
-using CSales.Database.Models;
+﻿// <copyright file="CounterSalesController.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
 
 namespace ProjectSalesCore.Controllers
 {
+    using System.Linq;
+    using System.Net;
+    using System.Web.Mvc;
+    using CSales.Database.Contexts;
+    using CSales.Database.Models;
+    using ProjectSalesCore.ViewModel.SaleByDispatch;
+    using System.Collections.Generic;
+    using ProjectSalesCore.ViewModel.SaleOrder;
+
     public class CounterSalesController : Controller
     {
         private MyContext db = new MyContext();
@@ -18,7 +20,26 @@ namespace ProjectSalesCore.Controllers
         // GET: CounterSales
         public ActionResult Index()
         {
-            return View(db.CounterSale.ToList());
+            var sales = this.db.CounterSale.ToList();
+            var list = new List<SaleBDIndexViewModel>();
+
+            foreach (var item in sales)
+            {
+                var total = this.db.OrderDetailsVentas.Where(o => o.IdSaleOrder == item.IdSaleOrder).Sum(o => o.Total);
+
+                var cvm = new SaleBDIndexViewModel
+                {
+                    TotalAmont = total,
+                    ClientName = item.SaleOrder.Client.Name,
+                    CreatedDate = item.CreatedDate,
+                    EmployeeName = item.Employee.Name,
+                    IdSaleOrder = item.IdSaleOrder,
+                    Id = item.Id
+                };
+                list.Add(cvm);
+            }
+
+            return View(list);
         }
 
         // GET: CounterSales/Details/5
@@ -33,87 +54,27 @@ namespace ProjectSalesCore.Controllers
             {
                 return HttpNotFound();
             }
-            return View(counterSale);
-        }
-
-        // GET: CounterSales/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: CounterSales/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,CreatedDate")] CounterSale counterSale)
-        {
-            if (ModelState.IsValid)
-            {
-                db.CounterSale.Add(counterSale);
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-
-            return View(counterSale);
-        }
-
-        // GET: CounterSales/Edit/5
-        public ActionResult Edit(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            CounterSale counterSale = db.CounterSale.Find(id);
-            if (counterSale == null)
+            SaleOrder saleOrder = db.SaleOrder.Find(counterSale.IdSaleOrder);
+            if (saleOrder == null)
             {
                 return HttpNotFound();
             }
-            return View(counterSale);
-        }
 
-        // POST: CounterSales/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,CreatedDate")] CounterSale counterSale)
-        {
-            if (ModelState.IsValid)
-            {
-                db.Entry(counterSale).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            return View(counterSale);
-        }
+            var odv = this.db.OrderDetailsVentas.Where(v => v.IdSaleOrder == saleOrder.IdSaleOrder).ToList();
 
-        // GET: CounterSales/Delete/5
-        public ActionResult Delete(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            CounterSale counterSale = db.CounterSale.Find(id);
-            if (counterSale == null)
-            {
-                return HttpNotFound();
-            }
-            return View(counterSale);
-        }
+            var total = odv.Sum(o => o.Total);
 
-        // POST: CounterSales/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
-        {
-            CounterSale counterSale = db.CounterSale.Find(id);
-            db.CounterSale.Remove(counterSale);
-            db.SaveChanges();
-            return RedirectToAction("Index");
+            var show = new DetailSaleBDispatchViewModel
+            {
+                CreatedDate = saleOrder.CreatedDate,
+                DetailVentas = odv,
+                EmployeeName = counterSale.Employee?.Name,
+                Id = saleOrder.IdSaleOrder,
+                ClientName = saleOrder.Client?.Name,
+                TotalAmount = total
+            };
+
+            return View(show);
         }
 
         protected override void Dispose(bool disposing)

@@ -37,10 +37,14 @@ namespace CSales.Database.Models
         [Column("SO")]
         public virtual SaleOrder SaleOrder { get; set; }
 
+        [ForeignKey(nameof(Employee))]
         [Column("IDEMP")]
         public int IdEmployee { get; set; }
 
         [Column("E")]
         public virtual Employee Employee { get; set; }
+
+        [Column("ITSPAID")]
+        public bool itsPaid { get; set; }
     }
 }

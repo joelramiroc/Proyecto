@@ -9,13 +9,19 @@ namespace ProjectSalesCore.Controllers
     using System.Data.Entity;
     using System.Linq;
     using System.Net;
+    using System.Net.Http;
+    using System.Threading.Tasks;
     using System.Web.Mvc;
     using CSales.Database.Contexts;
     using CSales.Database.Models;
     using ProjectSalesCore.DataBase.Models;
     using ProjectSalesCore.ViewModel.SaleOrder;
-    using System.Net.Http;
-    using System.Threading.Tasks;
+
+    public enum TypeSale
+    {
+        Dispatch = 1,
+        Counter = 2
+    }
 
     public class SaleOrdersController : Controller
     {
@@ -42,7 +48,21 @@ namespace ProjectSalesCore.Controllers
                 return HttpNotFound();
             }
 
-            return View(saleOrder);
+            var odv = this.db.OrderDetailsVentas.Where(v => v.IdSaleOrder == saleOrder.IdSaleOrder).ToList();
+
+            var total = odv.Sum( o => o.Total);
+
+            var show = new DetailSaleBDispatchViewModel
+            {
+                CreatedDate = saleOrder.CreatedDate,
+                DetailVentas = odv,
+                EmployeeName = saleOrder.Employee?.Name,
+                Id = saleOrder.IdSaleOrder,
+                ClientName = saleOrder.Client?.Name,
+                TotalAmount = total
+            };
+
+            return View(show);
         }
 
         public ActionResult SelectStorage()
@@ -67,24 +87,103 @@ namespace ProjectSalesCore.Controllers
 
             var s = new CreateSBDispatchViewModel();
             s.idSaleOrder = id;
+
+            var directions = from TypeSale d in Enum.GetValues(typeof(TypeSale))
+                             select new { ID = (int)d, Name = d.ToString() };
+
+            this.ViewBag.TypeSale = new SelectList(directions, "Id", "Name", s.TypeSale);
+
             this.ViewBag.IdEmployee = new SelectList(db.Employee, "Id", "Name");
             this.ViewBag.IdCurrentAccountDocumentType = new SelectList(db.CurrentAccountDocumentType, "IdCurrentAccountDocumentType", "TypeName", s.IdCurrentAccountDocumentType);
-            return this.View("SaleByDispatch",s);
+            return this.View("SaleByDispatch", s);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult SaleByDispatch(CreateSBDispatchViewModel model)
         {
+            var sl = this.db.SaleOrder.Find(model.idSaleOrder);
+            var idt = 0;
+            if (model.TypeSale == 1)
+            {
+                var sbd = new SaByDisp
+                {
+                    CreatedDate = DateTime.Now,
+                    IdSaleOrder = model.idSaleOrder,
+                    IdEmployee = model.IdEmployee,
+                    itsPaid = model.ItsPaid
+                };
 
-            var sbd = new SaByDisp
+                var r = this.db.SalesByDispatch.Add(sbd);
+                this.db.SaveChanges();
+                idt = r.Id;
+            }
+            else
+            {
+                var sbd = new CounterSale
+                {
+                    CreatedDate = DateTime.Now,
+                    IdSaleOrder = model.idSaleOrder,
+                    IdEmployee = model.IdEmployee,
+                    itsPaid = model.ItsPaid
+                };
+
+                var r = this.db.CounterSale.Add(sbd);
+                this.db.SaveChanges();
+                idt = r.Id;
+            }
+
+            var total = this.db.OrderDetailsVentas.Where(o => o.IdSaleOrder == sl.IdSaleOrder).Sum(s => s.Total);
+
+            if (!model.ItsPaid)
+            {
+                var cac = this.db.CustomerCheckingAccount.Where(c => c.IdClient == sl.IdClient).FirstOrDefault();
+                cac.TotalDebt += total;
+                db.Entry(cac).State = EntityState.Modified;
+                db.SaveChanges();
+            }
+
+            var bill = new Bill
             {
                 CreatedDate = DateTime.Now,
-                IdSaleOrder = model.idSaleOrder,
-                IdEmployee = model.IdEmployee
+                IdClient = sl.IdClient,
+                IdCurrentActualDocumentType = model.IdCurrentAccountDocumentType,
+                IdEmployee = model.IdEmployee,
+                Total = total,
             };
 
-            this.db.SalesByDispatch.Add(sbd);
+            if (model.TypeSale == 1)
+            {
+                bill.IdSaleByDispatch = idt;
+            }
+            else
+            {
+                bill.IdCounterSale = idt;
+            }
+
+            var b = this.db.Bill.Add(bill);
+            this.db.SaveChanges();
+
+            var reason = 0;
+
+            if (model.TypeSale == 1)
+            {
+                reason = this.db.ReasonNote.Where(r => r.ReasonName.Equals("SALE BY DISPATCH")).FirstOrDefault().IdReasonEntryNote;
+            }
+            else
+            {
+                reason = this.db.ReasonNote.Where(r => r.ReasonName.Equals("COUNTER SALE")).FirstOrDefault().IdReasonEntryNote;
+            }
+
+            var oN = new OutputNote
+            {
+                IdBill = b.IdBill,
+             IdReasonNote = reason,
+             IdSaleOrder = model.idSaleOrder,
+             CreatedDate = DateTime.Now
+            };
+
+            this.db.OuputNote.Add(oN);
             this.db.SaveChanges();
 
             var od = this.db.OrderDetailsVentas.Where(sss => sss.IdSaleOrder == model.idSaleOrder).ToList();
@@ -113,7 +212,6 @@ namespace ProjectSalesCore.Controllers
             this.ViewBag.IdClient = new SelectList(db.Client, "Id", "Name");
             this.ViewBag.IdEmployee = new SelectList(db.Employee, "Id", "Name");
             this.ViewBag.IdPaymentCondition = new SelectList(this.db.PaymentCondition, "IdPaymentCondition", "ConditionName");
-            this.ViewBag.IdStorage = new SelectList(db.Storage, "IdStorage", "StorageName");
             var show = new CreateSaleOrderViewModel();
             show.Products = this.db.ExternalInventory.Where(eI => eI.IdStorage == idStorage);
             show.IdStorage = idStorage;
@@ -151,13 +249,13 @@ namespace ProjectSalesCore.Controllers
                 foreach (var item in model.OrderDetailsCompras)
                 {
                     var iInv = this.db.ExternalInventory.Find(item.IdProduct);
-                    decimal total = item.Quantity * item.UnitPrice;
+                    decimal total = item.Quantity * iInv.UnitPrice;
 
-                    if (item.Discount != 0)
+                    if (iInv.DiscountRate != 0)
                     {
-                        decimal disc = (decimal)(item.Discount / (decimal)100.000);
-                        var rest = (item.Quantity * item.UnitPrice) * disc;
-                        var t = (item.Quantity * item.UnitPrice) - rest;
+                        decimal disc = (decimal)(iInv.DiscountRate / (decimal)100.000);
+                        var rest = (item.Quantity * iInv.UnitPrice) * disc;
+                        var t = (item.Quantity * iInv.UnitPrice) - rest;
                         total += t;
                     }
 

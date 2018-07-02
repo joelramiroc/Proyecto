@@ -1,4 +1,4 @@
-﻿@model CSales.Database.Models.CounterSale
+﻿@model ProjectSalesCore.ViewModel.SaleOrder.DetailSaleBDispatchViewModel
 
 @{
     ViewBag.Title = "Details";
@@ -7,9 +7,25 @@
 <h2>Details</h2>
 
 <div>
-    <h4>CounterSale</h4>
+    <h4>SaleOrder</h4>
     <hr />
     <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ClientName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClientName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmployeeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmployeeName)
+        </dd>
+
         <dt>
             @Html.DisplayNameFor(model => model.CreatedDate)
         </dt>
@@ -17,10 +33,45 @@
         <dd>
             @Html.DisplayFor(model => model.CreatedDate)
         </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalAmount)
+        </dt>
 
+        <dd>
+            @Html.DisplayFor(model => model.TotalAmount)
+        </dd>
     </dl>
 </div>
+<div>
+    <table>
+
+        <tr>
+            <td>
+                Product
+            </td>
+            <td>
+                Quantity
+            </td>
+            <td>
+                Unit Price
+            </td>
+        </tr>
+        @foreach (var item in Model.DetailVentas)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(i => item.EProdct.ProductDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(i => item.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(i => item.UnitPrice)
+                </td>
+            </tr>
+        }
+    </table>
+</div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
     @Html.ActionLink("Back to List", "Index")
 </p>

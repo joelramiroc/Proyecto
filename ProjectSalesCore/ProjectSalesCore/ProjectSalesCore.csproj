@@ -311,9 +311,10 @@
     <Compile Include="ViewModel\PurchaseOrder\POrderExternalDetail.cs" />
     <Compile Include="ViewModel\PurchaseOrder\POrderInternalDetail.cs" />
     <Compile Include="ViewModel\PurchaseOrder\SelectTypeOfPurchaseViewModel.cs" />
-    <Compile Include="ViewModel\SaleByDispatch\CreateSalByDispatchViewModel.cs" />
+    <Compile Include="ViewModel\SaleByDispatch\SaleBDIndexViewModel.cs" />
     <Compile Include="ViewModel\SaleOrder\CreateSaleOrderViewModel.cs" />
     <Compile Include="ViewModel\SaleOrder\CreateSBDispatchViewModel.cs" />
+    <Compile Include="ViewModel\SaleOrder\DetailSaleBDispatchViewModel.cs" />
     <Compile Include="ViewModel\SaleOrder\DetailSaleOrderViewModel.cs" />
     <Compile Include="ViewModel\SaleOrder\SelectStorage.cs" />
     <Compile Include="ViewModel\Storage\CreateStorageViewModel.cs" />

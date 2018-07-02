@@ -16,5 +16,9 @@ namespace ProjectSalesCore.ViewModel.SaleOrder
         public int IdEmployee { get; set; }
 
         public int IdCurrentAccountDocumentType { get; set; }
+
+        public int TypeSale { get; set; }
+
+        public bool ItsPaid { get; set; }
     }
 }
